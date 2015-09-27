@@ -1,26 +1,4 @@
-<!DOCTYPE html>
-<html>
-    
-    <link rel="stylesheet" href="bootstrap.css">
-    <link rel="stylesheet" href="style.css">
-    
-  </head>
-
-  <body>
-    <div class="nav">
-      <div class="container">
-        <ul class="pull-left">
-          <li><a href="#">AOFL</a></li>
-          <li><a href="#">About</a></li>
-        </ul>
-        <ul class="pull-right">
-          <li><a href="#">Register</a></li>
-          <li><a href="#">Login</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-
+<?php include("header.php"); ?>
     <div class="jumbotron">
       <div class="container">
         <h1>Explore the world of AOFL</h1>
@@ -30,8 +8,8 @@
     </div> 
    <div class="neighborhood-guides">
   <div class="container">
-    <h2>Neighborhood Guides</h2>
-    <p>Not sure where to stay? We've created neighborhood guides for cities all around the world.</p>
+    <h2>Our Sub-Organizations</h2>
+    <p>TThere are several sub-organizations under the Art of Living Foundation, including International Association for Human Values (IAHV), Volunteer for a Better India (VBI), Vyakti Vikas Kendra (VVK), Sri Sri Rural Development Program (SSRDP), Art of Living Health & Education Trust (AOLHET), Youth Leadership Training Program (YLTP) etc. </p>
 
     <div class="row">
       <div class="col-md-4">
@@ -56,6 +34,8 @@
       <div class="thumbnail">
         <img src="https://www.corbettreport.com/wp-content/uploads/2015/05/internet-02.jpg">
       </div>
+      <div class="thumbnail">
+        <img src="http://static.iwnsvg.com/wp-content/uploads/2015/02/Internet-1.jpeg">
       </div>
     </div>
   </div>
@@ -82,5 +62,5 @@
 	    </div>
 	  </div>
 	</div>
-  </body>
-</html>
+    
+  <?php include("footer.php"); ?>
